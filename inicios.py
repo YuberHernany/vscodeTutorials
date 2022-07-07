@@ -2,6 +2,7 @@
 
 import numpy as np
 
+
 def distance(p1, p2):
     """p1 and p2 are ndarray"""
     return np.linalg.norm(p1-p2)
@@ -51,4 +52,4 @@ print(mi_t.area())
 print(mi_t.longDeLadosOrd())
 print(mi_t.sonCongruentes(mi_t))
 print(mi_t.sonSemejantes(mi_t))                     
-
+print("hello world")
